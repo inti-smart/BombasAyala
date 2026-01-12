@@ -1,0 +1,430 @@
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Bombas Ayala</title>
+    <link rel="icon" href="build/img/propios/log2.webp" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <!-- HEADER UNIFICADO (Contact Bar + Menu Principal) -->
+    <header class="header-unificado">
+        <!-- BARRA DE CONTACTO (se oculta con scroll) -->
+        <div class="contact-bar">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" class="contact-icon">
+                        <span class="contact-text">997 984 102 | 986 186 297</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/gmail.webp" alt="Email" class="contact-icon">
+                        <span class="contact-text">bombasayala365@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/ubicacion.webp" alt="Ubicación" class="contact-icon">
+                        <span class="contact-text">Jr. San Pedro 348 - Surquillo</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Facebook">
+                        <img src="build/img/propios/redes/facebook.webp" alt="Facebook" />
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <img src="build/img/propios/redes/linkendin.webp" alt="LinkedIn" />
+                    </a>
+                    <a href="#" class="social-link" title="YouTube">
+                        <img src="build/img/propios/redes/youtube.webp" alt="YouTube" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NAVEGACIÓN PRINCIPAL (siempre visible) -->
+        <nav class="nav-principal">
+            <div class="nav-container">
+                <a href="inicio.html" class="logo">
+                    <img src="build/img/propios/logo1.webp" alt="Bombas Ayala Logo">
+                </a>
+                
+                <!-- Menú hamburguesa para móvil -->
+                <button class="mobile-menu-toggle" aria-label="Abrir menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Menú de navegación -->
+                <ul class="nav-menu">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <!-- <li><a href="soporte.html">Soporte</a></li> -->
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Overlay para cerrar menú en móvil - MOVIDO FUERA DEL NAV-CONTAINER -->
+        <div class="mobile-menu-overlay"></div>
+    </header>
+
+
+    <!-- MAPA SUPERIOR - CANTO A CANTO -->
+    <div class="contenedor-mapa">
+        <div class="mapa-interactivo" id="mapaInteractivo">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3!2d-77.050290!3d-12.113154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDA2JzQ3LjMiUyA3N8KwMDMnMDEuMCJX!5e0!3m2!1ses!2spe!4v1640000000000!5m2!1ses!2spe"  
+                width="100%" height="400" 
+                allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <div class="punto-ubicacion" id="puntoUbicacion">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            
+            <div class="informacion-mapa" id="informacionMapa">
+                <div class="datos-direccion">
+                    <div class="item-direccion">
+                        <strong>Dirección:</strong>
+                        <span>Av. Industrial 123, Lima - Perú</span>
+                    </div>
+                    <div class="item-direccion">
+                        <strong>Referencia:</strong>
+                        <span>Frente al Mercado Central</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECCIÓN DE CONTACTO -->
+    <main class="seccion-contacto">
+        <!-- CONTENEDOR PRINCIPAL CON DEGRADADO -->
+        <div class="contenedor-principal-degradado">
+            <div class="contenedor-contacto">
+                
+                <!-- ENCABEZADO DE LA SECCIÓN -->
+                <div class="encabezado-contacto">
+                    <h2 class="titulo-principal-contacto">CONTACTA CON NOSOTROS</h2>
+                    <p class="subtitulo-contacto">Expertos en Bombas de Agua - Más de 25 años de experiencia</p>
+                </div>
+
+                <!-- CONTENIDO PRINCIPAL - FORMULARIO E INFORMACIÓN -->
+                <div class="contenido-contacto">
+                    
+                    <!-- FORMULARIO DE CONTACTO - IZQUIERDA -->
+                    <div class="seccion-formulario-contacto">
+                        <h3 class="titulo-seccion-h3">
+                            <i class="fas fa-envelope"></i>
+                            Formulario de Contacto
+                        </h3>
+                        
+                        <form class="formulario-contacto" id="formularioContacto">
+                            <div class="grupo-formulario">
+                                <label for="nombre">Nombre Completo *</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </div>
+
+                            <div class="grupo-formulario">
+                                <label for="email">Correo Electrónico *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="grupo-formulario">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono">
+                            </div>
+
+                            <div class="grupo-formulario">
+                                <label for="servicio">Tipo de Servicio</label>
+                                <select id="servicio" name="servicio">
+                                    <option value="">Selecciona un servicio...</option>
+                                    <option value="mantenimiento-preventivo">Mantenimiento Preventivo</option>
+                                    <option value="mantenimiento-correctivo">Mantenimiento Correctivo</option>
+                                    <option value="instalacion-profesional">Instalación Profesional</option>
+                                    <option value="reparacion-especializada">Reparación Especializada</option>
+                                    <option value="asesoria-tecnica">Asesoría Técnica</option>
+                                    <option value="emergencia-24-7">Servicio de Emergencia 24/7</option>
+                                </select>
+                            </div>
+
+                            <div class="grupo-formulario">
+                                <label for="mensaje">Mensaje *</label>
+                                <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Describe tu consulta o requerimiento..."></textarea>
+                            </div>
+
+                            <button type="submit" class="boton-enviar">
+                                <i class="fas fa-paper-plane"></i>
+                                ENVIAR CONSULTA
+                            </button>
+                        </form>
+                        
+                        <p class="cita-contacto">
+                            "En Bombas Ayala, tu satisfacción es nuestra prioridad. Estamos aquí para ayudarte con todas tus necesidades de bombas de agua."
+                        </p>
+                    </div>
+
+                    <!-- INFORMACIÓN DE CONTACTO - DERECHA -->
+                    <div class="seccion-informacion-contacto">
+                        
+                        <!-- INFORMACIÓN DE CONTACTO DIRECTO -->
+                        <div class="informacion-contacto-directo">
+                            <h3 class="titulo-seccion-h3">
+                                <i class="fas fa-phone"></i>
+                                Información de Contacto
+                            </h3>
+
+                            <div class="grilla-informacion-contacto">
+                                <div class="item-informacion-contacto">
+                                    <div class="icono-contacto">
+                                        <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" class="icono-img">
+                                    </div>
+                                    <div class="detalles-contacto">
+                                        <strong>Teléfono Principal</strong>
+                                        <span>997 984 102</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-informacion-contacto">
+                                    <div class="icono-contacto whatsapp">
+                                        <img src="build/img/propios/redes/whatsapp.webp" alt="WhatsApp" class="icono-img">
+                                    </div>
+                                    <div class="detalles-contacto">
+                                        <strong>WhatsApp</strong>
+                                        <span>+51 997 984 102</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-informacion-contacto">
+                                    <div class="icono-contacto">
+                                        <img src="build/img/propios/redes/gmail.webp" alt="Email" class="icono-img">
+                                    </div>
+                                    <div class="detalles-contacto">
+                                        <strong>Email</strong>
+                                        <span>bombasayala365@gmail.com</span>
+                                    </div>
+                                </div>
+
+                                <div class="item-informacion-contacto emergencia">
+                                    <div class="icono-contacto">
+                                        <img src="build/img/propios/redes/llamada.webp" alt="Emergencias" class="icono-img emergencia-icon">
+                                    </div>
+                                    <div class="detalles-contacto">
+                                        <strong>Emergencias 24/7</strong>
+                                        <span>986 186 297</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- HORARIOS DE ATENCIÓN -->
+                        <div class="seccion-horarios">
+                            <h3 class="titulo-seccion-h3">
+                                <i class="fas fa-clock"></i>
+                                Horarios de Atención
+                            </h3>
+                            
+                            <div class="grilla-horarios">
+                                <div class="item-horario">
+                                    <div class="dia-horario">Lunes a Viernes</div>
+                                    <div class="tiempo-horario">8:00 AM - 6:00 PM</div>
+                                </div>
+                                
+                                <div class="item-horario">
+                                    <div class="dia-horario">Sábados</div>
+                                    <div class="tiempo-horario">8:00 AM - 1:00 PM</div>
+                                </div>
+                                
+                                <div class="item-horario">
+                                    <div class="dia-horario">Domingos</div>
+                                    <div class="tiempo-horario">Solo emergencias</div>
+                                </div>
+                                
+                                <div class="item-horario horario-emergencia">
+                                    <div class="dia-horario">Servicio 24/7</div>
+                                    <div class="tiempo-horario">Disponible para emergencias</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Elementos flotantes -->
+    <div class="flotantes">
+        <a href="https://wa.me/51997984102" class="flotante whatsapp" title="WhatsApp">
+            <img src="build/img/propios/redes/whatsapp.webp" alt="WhatsApp" />
+            <span>WhatsApp</span>
+        </a>
+        <a href="tel:+51997984102" class="flotante llamada" title="Llamar">
+            <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" />
+            <span>Llamar</span>
+        </a>
+        <a href="https://instagram.com/bombasayala" class="flotante instagram" title="Instagram">
+            <img src="build/img/propios/redes/instagram.webp" alt="Instagram" />
+            <span>Instagram</span>
+        </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-company">
+                <div class="footer-logo">
+                    <img src="../build/img/propios/log2.webp" alt="Bombas Ayala Logo">
+                    <div>
+                        <div class="footer-logo-text">BOMBAS AYALA</div>
+                        <div class="footer-tagline">"Solución Técnica"</div>
+                    </div>
+                </div>
+                <p class="footer-description">
+                    BOMBAS AYALA es una empresa con más de 20 años de trayectoria
+                    especializada en el sector de bombas de agua y plomería en general.
+                    Nos fundamentamos en el compromiso con la satisfacción de nuestros
+                    clientes y la calidad en nuestras soluciones óptimas.
+                </p>
+
+                <div>
+                    <div class="footer-social-title">Síguenos en</div>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" title="Facebook">
+                            <img src="../build/img/propios/redes/facebook.webp" alt="Facebook" />
+                        </a>
+
+                        <a href="#" class="footer-social-link" title="LinkedIn">
+                            <img src="../build/img/propios/redes/linkendin.webp" alt="LinkedIn" />                          
+                        </a>
+
+                        <a href="#" class="footer-social-link" title="YouTube">
+                            <img src="../build/img/propios/redes/youtube.webp" alt="YouTube" />
+                        </a>                                            
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN CONTACTO -->
+            <div class="footer-contact">
+                <h3 class="footer-section-title">Contáctenos</h3>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/whatsapp.webp" alt=" whatsapp" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>WhatsApp</strong>
+                        +51 997 984 102
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/llamada.webp" alt=" llamada" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Teléfono</strong>
+                        +51 986 186 297
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/gmail.webp" alt="correo" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Email</strong>
+                        bombasayala365@gmail.com
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3834510!2d-77.01147668561!3d-12.08575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7c2b7b7b7b7%3A0x7b7b7b7b7b7b7b7b!2sJr.%20San%20Pedro%20348%2C%20Surquillo!5e0!3m2!1ses!2spe!4v1600000000000!5m2!1ses!2spe"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+            <!-- SECCIÓN SERVICIOS -->
+            <div class="footer-services">
+                <h3 class="footer-section-title">Servicios</h3>
+
+                <div class="footer-services-grid">
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Mantenimiento, instalación y venta de bombas</span>
+                    </div>
+
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Tableros variadores de velocidad</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de cisternas y tanques elevados</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de pozos sépticos</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de piscinas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🚨</span>
+                        <span class="footer-service-text">Atención de emergencias 24/7</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Mantenimiento de termas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">⚡</span>
+                        <span class="footer-service-text">Gasfitería en general</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-copyright">
+                    Derechos Reservados. © 2024 – BOMBAS AYALA
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="src/js/contacto/contacto.js"></script>
+    <script src="src/js/header/header-unificado.js"></script> -->
+    <script src="build/js/formulario.js"></script>
+    <script src="build/js/main.js"></script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

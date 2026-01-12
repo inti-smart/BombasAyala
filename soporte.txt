@@ -1,0 +1,648 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte - Bombas Ayala</title>
+    <link rel="icon" href="build/img/propios/log2.webp" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <!-- HEADER UNIFICADO (Contact Bar + Menu Principal) -->
+    <header class="header-unificado">
+        <!-- BARRA DE CONTACTO (se oculta con scroll) -->
+        <div class="contact-bar">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" class="contact-icon">
+                        <span class="contact-text">997 984 102 | 986 186 297</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/gmail.webp" alt="Email" class="contact-icon">
+                        <span class="contact-text">bombasayala365@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/ubicacion.webp" alt="Ubicación" class="contact-icon">
+                        <span class="contact-text">Jr. San Pedro 348 - Surquillo</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Facebook">
+                        <img src="build/img/propios/redes/facebook.webp" alt="Facebook" />
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <img src="build/img/propios/redes/linkendin.webp" alt="LinkedIn" />
+                    </a>
+                    <a href="#" class="social-link" title="YouTube">
+                        <img src="build/img/propios/redes/youtube.webp" alt="YouTube" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NAVEGACIÓN PRINCIPAL (siempre visible) -->
+        <nav class="nav-principal">
+            <div class="nav-container">
+                <a href="inicio.html" class="logo">
+                    <img src="build/img/propios/logo1.webp" alt="Bombas Ayala Logo">
+                </a>
+                
+                <!-- Menú hamburguesa para móvil -->
+                <button class="mobile-menu-toggle" aria-label="Abrir menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Menú de navegación -->
+                <ul class="nav-menu">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="soporte.html">Soporte</a></li>
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Overlay para cerrar menú en móvil - MOVIDO FUERA DEL NAV-CONTAINER -->
+        <div class="mobile-menu-overlay"></div>
+    </header>
+ 
+    <!-- SECCIÓN SOPORTE -->
+    <main class="seccion-soporte">
+        <h2 class="titulo-seccion-soporte">
+            <i class="fas fa-user-tie"></i>
+            LOS ENCARGADOS DE RESOLVER DUDAS 
+        </h2>
+        <!-- CONTENIDO PRINCIPAL -->
+        <div class="contenedor-principal-soporte">
+
+           <div class="dueños-soporte">
+
+                <!-- CONTACTO DIRECTO CON DUEÑO -->
+                <section class="seccion-contacto-dueno">
+                    <div class="contenedor-contacto-dueno">
+                        <div class="tarjeta-dueno">
+                            <div class="contenido-dueno">
+                                <div class="imagen-dueno">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Johan Montoya - Gerente Administrativo" class="foto-dueno">
+                                    <div class="estado-online">
+                                        <!-- Icono CSS automático con ::before ✓ -->
+                                    </div>
+                                </div>
+                                
+                                <div class="info-dueno">
+                                    <div class="encabezado-dueno">
+                                        <h3 class="nombre-dueno">Johan Montoya</h3>
+                                        <p class="cargo-dueno">Gerente Administrativo</p>
+                                        <div class="experiencia-dueno">
+                                            <i class="fas fa-star"></i>
+                                            <span>+20 años de experiencia</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contacto-directo">
+                                        <p class="texto-contacto">
+                                            Habla directamente conmigo para resolver tus consultas técnicas
+                                        </p>
+                                        
+                                        <div class="botones-contacto-dueno">
+                                            <a href="https://wa.me/51997984102" class="boton-whatsapp-dueno" target="_blank">
+                                                <i class="fab fa-whatsapp"></i>
+                                                <span>WhatsApp Directo</span>
+                                                <div class="numero">997 984 102</div>
+                                            </a>
+                                            
+                                            <a href="tel:+51986186297" class="boton-llamar-dueno">
+                                                <i class="fas fa-phone"></i>
+                                                <span>Llamar Ahora</span>
+                                                <div class="numero">986 186 297</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                            <!-- CONTACTO DIRECTO CON DUEÑO -->
+                <section class="seccion-contacto-dueno">
+                    <div class="contenedor-contacto-dueno">
+                        <div class="tarjeta-dueno">
+                            <div class="contenido-dueno">
+                                <div class="imagen-dueno">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="Johan Montoya - Gerente Administrativo" class="foto-dueno">
+                                    <div class="estado-online">
+                                        <!-- Icono CSS automático con ::before ✓ -->
+                                    </div>
+                                </div>
+                                
+                                <div class="info-dueno">
+                                    <div class="encabezado-dueno">
+                                        <h3 class="nombre-dueno">Johan Montoya</h3>
+                                        <p class="cargo-dueno">Gerente Administrativo</p>
+                                        <div class="experiencia-dueno">
+                                            <i class="fas fa-star"></i>
+                                            <span>+20 años de experiencia</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="contacto-directo">
+                                        <p class="texto-contacto">
+                                            Habla directamente conmigo para resolver tus consultas técnicas
+                                        </p>
+                                        
+                                        <div class="botones-contacto-dueno">
+                                            <a href="https://wa.me/51997984102" class="boton-whatsapp-dueno" target="_blank">
+                                                <i class="fab fa-whatsapp"></i>
+                                                <span>WhatsApp Directo</span>
+                                                <div class="numero">997 984 102</div>
+                                            </a>
+                                            
+                                            <a href="tel:+51986186297" class="boton-llamar-dueno">
+                                                <i class="fas fa-phone"></i>
+                                                <span>Llamar Ahora</span>
+                                                <div class="numero">986 186 297</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+           </div> 
+
+
+            <!-- GRID DE SERVICIOS DE SOPORTE -->
+            <div class="grid-servicios-soporte">
+                <div class="visita-reunionvirtural">
+                <!-- SOLICITAR VISITA TÉCNICA -->
+                <section class="tarjeta-soporte tarjeta-visita-tecnica">
+                    <div class="encabezado-tarjeta">
+                        <div class="icono-tarjeta" data-icon="🔧">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <h3 class="titulo-tarjeta">Solicitar Visita Técnica</h3>
+                    </div>
+                    
+                    <div class="contenido-tarjeta">
+                        <div class="info-visita">
+                            <div class="caracteristica-visita">
+                                <i class="fas fa-clock"></i>
+                                <span>Respuesta en 30 minutos</span>
+                            </div>
+                            <div class="caracteristica-visita">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Toda Lima Metropolitana</span>
+                            </div>
+                            <div class="caracteristica-visita">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Técnicos certificados</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tipos-servicio">
+                            <div class="servicios-disponibles">
+                                <h4>Servicios Disponibles:</h4>
+                                <div class="lista-servicios">
+                                    <div class="servicio-item">
+                                        <i class="fas fa-wrench"></i>
+                                        <span>Mantenimiento Preventivo</span>
+                                    </div>
+                                    <div class="servicio-item">
+                                        <i class="fas fa-tools"></i>
+                                        <span>Reparación Especializada</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="respuestas-certificadas">
+                                <h4>Respuestas Certificadas:</h4>
+                                <div class="lista-servicios">
+                                    <div class="servicio-item">
+                                        <i class="fas fa-cog"></i>
+                                        <span>Instalación Profesional</span>
+                                    </div>
+                                    <div class="servicio-item">
+                                        <i class="fas fa-exclamation-triangle"></i>
+                                        <span>Emergencias 24/7</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <div class="accion-visita">
+                                <a href="contacto.html" class="boton-solicitar-visita">
+                                    <i class="fas fa-calendar-plus"></i>
+                                    Solicitar Visita Ahora
+                                </a>
+                            </div>
+                    </div>
+                </section>
+
+                <!-- REUNIÓN VIRTUAL -->
+                <section class="tarjeta-soporte tarjeta-reunion-virtual">
+                    <div class="encabezado-tarjeta">
+                        <div class="icono-tarjeta" data-icon="📹">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3 class="titulo-tarjeta">Reunión Virtual</h3>
+                    </div>
+                    
+                    <div class="contenido-tarjeta">
+                        <div class="info-reunion">
+                            <p class="descripcion-reunion">
+                                Resolvemos tus consultas técnicas mediante videollamada. 
+                                Ideal para diagnósticos rápidos y asesoría especializada.
+                            </p>
+                            
+                            <div class="ventajas-reunion">
+                                <div class="ventaja-item">
+                                    <i class="fas fa-lightning-bolt"></i>
+                                    <span>Diagnóstico inmediato</span>
+                                </div>
+                                <div class="ventaja-item">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Asesoría especializada</span>
+                                </div>
+                                <div class="ventaja-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>Sin costo adicional</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="horarios-disponibles">
+                            <h4>Horarios Disponibles:</h4>
+                            <div class="horarios-grid">
+                                <div class="horario-item">
+                                    <i class="fas fa-sun"></i>
+                                    <span>Lunes a Viernes</span>
+                                    <strong>8:00 AM - 6:00 PM</strong>
+                                </div>
+                                <div class="horario-item">
+                                    <i class="fas fa-moon"></i>
+                                    <span>Sábados</span>
+                                    <strong>9:00 AM - 2:00 PM</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="botones-reunion">
+                            <a href="https://wa.me/51997984102?text=Hola, me gustaría agendar una reunión virtual" class="boton-agendar-whatsapp" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                                Agendar por WhatsApp
+                            </a>
+                            <a href="tel:+51997984102" class="boton-agendar-llamada">
+                                <i class="fas fa-phone"></i>
+                                Llamar para Agendar
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                </div>
+
+                <!-- MANUALES BÁSICOS -->
+                <section class="tarjeta-soporte tarjeta-manuales">
+                    <div class="encabezado-tarjeta">
+                        <div class="icono-tarjeta" data-icon="📚">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3 class="titulo-tarjeta">Manuales Básicos</h3>
+                    </div>
+                    
+                    <div class="contenido-tarjeta">
+                        <p class="descripcion-manuales">
+                            Descarga nuestros manuales técnicos gratuitos para mantenimiento básico y solución de problemas comunes.
+                        </p>
+                        
+                        <div class="grid-manuales">
+                            <div class="manual-item">
+                                <div class="icono-manual" data-icon="📄">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="info-manual">
+                                    <h4>Bombas Centrífugas</h4>
+                                    <p>Guía de mantenimiento y solución de problemas</p>
+                                    <a href="#" class="descargar-manual">
+                                        <i class="fas fa-download"></i>
+                                        Descargar PDF
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="manual-item">
+                                <div class="icono-manual" data-icon="📋">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="info-manual">
+                                    <h4>Bombas Periféricas</h4>
+                                    <p>Instalación y configuración básica</p>
+                                    <a href="#" class="descargar-manual">
+                                        <i class="fas fa-download"></i>
+                                        Descargar PDF
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="manual-item">
+                                <div class="icono-manual" data-icon="⚡">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="info-manual">
+                                    <h4>Tableros Eléctricos</h4>
+                                    <p>Mantenimiento preventivo y seguridad</p>
+                                    <a href="#" class="descargar-manual">
+                                        <i class="fas fa-download"></i>
+                                        Descargar PDF
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="manual-item">
+                                <div class="icono-manual" data-icon="⚙️">
+                                    <i class="fas fa-file-pdf"></i>
+                                </div>
+                                <div class="info-manual">
+                                    <h4>Variadores de Velocidad</h4>
+                                    <p>Configuración y programación básica</p>
+                                    <a href="#" class="descargar-manual">
+                                        <i class="fas fa-download"></i>
+                                        Descargar PDF
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- PREGUNTAS FRECUENTES --> 
+                <section class="tarjeta-soporte tarjeta-faq">
+                    <div class="encabezado-tarjeta">
+                        <div class="icono-tarjeta" data-icon="❓">
+                            <i class="fas fa-question-circle"></i>
+                        </div>
+                        <h3 class="titulo-tarjeta">Preguntas Frecuentes</h3>
+                    </div>
+                    
+                    <div class="contenido-tarjeta">
+                        <div class="faq-container">
+                            <div class="faq-item">
+                                <div class="faq-pregunta">
+                                    <h4>¿Cuánto tiempo toma una reparación de bomba?</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-respuesta">
+                                    <p>El tiempo de reparación depende del tipo de falla. Reparaciones menores toman 1-2 horas, mientras que reparaciones mayores pueden tomar 1-2 días. Siempre proporcionamos un tiempo estimado después del diagnóstico inicial.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-pregunta">
+                                    <h4>¿Ofrecen garantía en sus servicios?</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-respuesta">
+                                    <p>Sí, todos nuestros servicios incluyen garantía. Reparaciones tienen 3 meses de garantía, instalaciones nuevas 6 meses, y repuestos originales hasta 1 año según el fabricante.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-pregunta">
+                                    <h4>¿Atienden emergencias los fines de semana?</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-respuesta">
+                                    <p>Sí, tenemos servicio de emergencia 24/7 los 365 días del año. Para emergencias fuera de horario regular aplicamos una tarifa adicional por servicio nocturno o fin de semana.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-pregunta">
+                                    <h4>¿Qué tipos de bombas manejan?</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-respuesta">
+                                    <p>Trabajamos con todos los tipos: bombas centrífugas, periféricas, sumergibles, industriales, de presión constante, variadores de velocidad y sistemas de bombeo completos para uso doméstico, comercial e industrial.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-pregunta">
+                                    <h4>¿Cómo puedo prevenir fallas en mi bomba?</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-respuesta">
+                                    <p>Recomendamos mantenimiento preventivo cada 6 meses, revisar conexiones eléctricas, limpiar filtros regularmente, verificar presión del sistema y no operar la bomba en seco. Ofrecemos planes de mantenimiento preventivo.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="faq-item">
+                                <div class="faq-pregunta">
+                                    <h4>¿Cuál es el costo del servicio técnico?</h4>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-respuesta">
+                                    <p>El diagnóstico tiene un costo mínimo que se descuenta si decides realizar el servicio con nosotros. Los precios varían según el tipo de trabajo. Siempre proporcionamos cotización detallada antes de iniciar cualquier trabajo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- LLAMADA A LA ACCIÓN FINAL -->
+            <section class="seccion-cta-soporte">
+                <div class="contenedor-cta">
+                    <div class="cta-emergencia">
+                        <div class="icono-emergencia" data-icon="🚨">
+                            <!-- Icono CSS automático con ::before 🚨 -->
+                        </div>
+                        <div class="texto-emergencia">
+                            <h3>¿Tienes una emergencia?</h3>
+                            <p>Estamos disponibles las 24 horas para atender tus urgencias</p>
+                        </div>
+                    </div>
+                    
+                    <div class="botones-cta-final">
+                        <a href="https://wa.me/51997984102?text=EMERGENCIA: Necesito asistencia técnica urgente" class="boton-emergencia-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Emergencia
+                        </a>
+                        <a href="tel:+51997984102" class="boton-emergencia-llamar">
+                            <i class="fas fa-phone"></i>
+                            Llamar Emergencia
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+
+            
+            
+            <div class="footer-company">
+                <div class="footer-logo">
+                    <img src="../build/img/propios/log2.webp" alt="Bombas Ayala Logo">
+                    <div>
+                        <div class="footer-logo-text">BOMBAS AYALA</div>
+                        <div class="footer-tagline">"Solución Técnica"</div>
+                    </div>
+                </div>
+
+
+                <p class="footer-description">
+                    BOMBAS AYALA es una empresa con más de 20 años de trayectoria
+                    especializada en el sector de bombas de agua y plomería en general.
+                    Nos fundamentamos en el compromiso con la satisfacción de nuestros
+                    clientes y la calidad en nuestras soluciones óptimas.
+                </p>
+
+                <div>
+                    <div class="footer-social-title">Síguenos en</div>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" title="Facebook">
+                            <img src="../build/img/propios/redes/facebook.webp" alt="Facebook" />
+                        </a>
+
+                        <a href="#" class="footer-social-link" title="LinkedIn">
+                            <img src="../build/img/propios/redes/linkendin.webp" alt="LinkedIn" />                          
+                        </a>
+
+                        <a href="#" class="footer-social-link" title="YouTube">
+                            <img src="../build/img/propios/redes/youtube.webp" alt="YouTube" />
+                        </a>                                            
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN CONTACTO -->
+            <div class="footer-contact">
+                <h3 class="footer-section-title">Contáctenos</h3>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/whatsapp.webp" alt=" whatsapp" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>WhatsApp</strong>
+                        +51 997 984 102
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/llamada.webp" alt=" llamada" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Teléfono</strong>
+                        +51 986 186 297
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/gmail.webp" alt="correo" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Email</strong>
+                        bombasayala365@gmail.com
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3834510!2d-77.01147668561!3d-12.08575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7c2b7b7b7b7%3A0x7b7b7b7b7b7b7b7b!2sJr.%20San%20Pedro%20348%2C%20Surquillo!5e0!3m2!1ses!2spe!4v1600000000000!5m2!1ses!2spe"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+            <!-- SECCIÓN SERVICIOS -->
+            <div class="footer-services">
+                <h3 class="footer-section-title">Servicios</h3>
+
+                <div class="footer-services-grid">
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Mantenimiento, instalación y venta de bombas </span>
+                    </div>
+
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Tableros variadores de velocidad</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de cisternas y tanques elevados</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de pozos sépticos</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de piscinas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🚨</span>
+                        <span class="footer-service-text">Atención de emergencias 24/7</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Mantenimiento de termas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">⚡</span>
+                        <span class="footer-service-text">Gasfitería en general</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-copyright">
+                    Derechos Reservados. © 2024 – BOMBAS AYALA
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="src/js/soporte/soporte.js"></script> -->
+    <!-- <script src="src/js/header/header-unificado.js"></script> -->
+
+    <script src="build/js/main.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
+

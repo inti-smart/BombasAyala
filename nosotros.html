@@ -1,0 +1,572 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Bombas Ayala</title>
+    <link rel="icon" href="build/img/propios/log2.webp" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <!-- HEADER UNIFICADO (Contact Bar + Menu Principal) -->
+    <header class="header-unificado">
+        <!-- BARRA DE CONTACTO (se oculta con scroll) -->
+        <div class="contact-bar">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" class="contact-icon">
+                        <span class="contact-text">997 984 102 | 986 186 297</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/gmail.webp" alt="Email" class="contact-icon">
+                        <span class="contact-text">bombasayala365@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/ubicacion.webp" alt="Ubicación" class="contact-icon">
+                        <span class="contact-text">Jr. San Pedro 348 - Surquillo</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Facebook">
+                        <img src="build/img/propios/redes/facebook.webp" alt="Facebook" />
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <img src="build/img/propios/redes/linkendin.webp" alt="LinkedIn" />
+                    </a>
+                    <a href="#" class="social-link" title="YouTube">
+                        <img src="build/img/propios/redes/youtube.webp" alt="YouTube" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NAVEGACIÓN PRINCIPAL (siempre visible) -->
+        <nav class="nav-principal">
+            <div class="nav-container">
+                <a href="inicio.html" class="logo">
+                    <img src="build/img/propios/logo1.webp" alt="Bombas Ayala Logo">
+                </a>
+                
+                <!-- Menú hamburguesa para móvil -->
+                <button class="mobile-menu-toggle" aria-label="Abrir menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Menú de navegación -->
+                <ul class="nav-menu">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <!-- <li><a href="soporte.html">Soporte</a></li> -->
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Overlay para cerrar menú en móvil - MOVIDO FUERA DEL NAV-CONTAINER -->
+        <div class="mobile-menu-overlay"></div>
+    </header>
+
+    <!-- SECCIÓN NOSOTROS COMPLETA -->
+    <main class="seccion-nosotros"> 
+        <!-- HERO SUPERIOR -->
+
+        <section class="hero-nosotros">
+            <div class="contenedor-hero">
+                <h1 class="titulo-principal-nosotros">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                    NOSOTROS
+                </h1>
+                <p class="subtitulo-nosotros">
+                    Líderes en soluciones de bombas de agua con más de 30 años de experiencia
+                </p>
+            </div>
+        </section>
+
+        <!-- ESTADÍSTICAS DESTACADAS -->
+        <section class="estadisticas">
+            <div class="contenedor-estadisticas">
+                <div class="estadistica-item">
+                    <div class="numero-estadistica" data-numero="30">0</div>
+                    <div class="texto-estadistica">Años de Experiencia</div>
+                    <div class="icono-estadistica">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="estadistica-item">
+                    <div class="numero-estadistica" data-numero="2000">0</div>
+                    <div class="texto-estadistica">Clientes Satisfechos</div>
+                    <div class="icono-estadistica">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="estadistica-item">
+                    <div class="numero-estadistica" data-numero="3500">0</div>
+                    <div class="texto-estadistica">Servicios Realizados</div>
+                    <div class="icono-estadistica">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="estadistica-item">
+                    <div class="numero-estadistica" data-numero="24">0</div>
+                    <div class="texto-estadistica">Atención 24/7</div>
+                    <div class="icono-estadistica">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- QUIÉNES SOMOS -->
+        <section class="quienes-somos">
+            <div class="contenido-con-imagen">
+                <div class="imagen-quienes-somos">
+                    <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=500&h=400&fit=crop&crop=center" alt="Equipo Bombas Ayala trabajando" class="imagen-equipo">
+                    <div class="overlay-imagen">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="icono-play">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polygon points="10,8 16,12 10,16 10,8"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <div class="contenido-texto">
+                    <div class="encabezado-tarjeta">
+                        <div class="icono-limpio">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 21h18"/>
+                                <path d="M5 21V7l8-4v18"/>
+                                <path d="M19 21V11l-6-4"/>
+                            </svg>
+                        </div>
+                        <h3 class="titulo-tarjeta">Quiénes Somos</h3>
+                    </div>
+                    
+                    <div class="contenido-tarjeta">
+                        <p class="texto-principal">
+                            <strong>Bombas Ayala</strong> 
+                            es una empresa peruana con más de 20 años de experiencia en sistemas de bombeo y servicios de plomería. Nos especializamos en el mantenimiento, instalación y venta de bombas de agua, así como en servicios complementarios como limpieza de cisternas, pozos sépticos, piscinas, atención a inundaciones, mantenimiento de termas y gasfitería en general.
+                            Contamos con un equipo técnico calificado y comprometido con brindar un servicio eficiente, seguro y personalizado. Nuestra reputación se basa en la responsabilidad, la calidad y la confianza de nuestros clientes, a quienes ofrecemos soluciones integrales que superan expectativas tanto en el ámbito residencial como industrial.
+                        </p>
+                        
+                        <div class="lista-caracteristicas">
+                            <div class="caracteristica-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22,4 12,14.01 9,11.01"/>
+                                </svg>
+                                <span>Empresa familiar con tradición</span>
+                            </div>
+                            <div class="caracteristica-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22,4 12,14.01 9,11.01"/>
+                                </svg>
+                                <span>Tecnología de vanguardia</span>
+                            </div>
+                            <div class="caracteristica-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22,4 12,14.01 9,11.01"/>
+                                </svg>
+                                <span>Personal altamente capacitado</span>
+                            </div>
+                            <div class="caracteristica-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                    <polyline points="22,4 12,14.01 9,11.01"/>
+                                </svg>
+                                <span>Compromiso con la calidad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MISIÓN Y VISIÓN -->
+        <section class="mision-vision">
+            <div class="encabezado-tarjeta">
+                <div class="icono-limpio">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <circle cx="12" cy="12" r="6"/>
+                        <circle cx="12" cy="12" r="2"/>
+                    </svg>
+                </div>
+                <h3 class="titulo-tarjeta">Misión y Visión</h3>
+            </div>
+            
+            <div class="contenido-tarjeta">
+                <div class="mision-vision-grid">
+                    <div class="mision-section">
+                        <div class="mision-contenido">
+                            <div class="mision-header">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+                                    <line x1="3" y1="6" x2="21" y2="6"/>
+                                    <path d="M16 10a4 4 0 0 1-8 0"/>
+                                </svg>
+                                <h4>Nuestra Misión</h4>
+                            </div>
+                            <p class="mision-texto">
+                                Brindar soluciones eficientes, seguras y de alta calidad en sistemas de bombeo y plomería, satisfaciendo las necesidades de nuestros clientes a través de un servicio confiable, profesional y respaldado por más de dos décadas de experiencia.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="vision-section">
+                        <div class="vision-contenido">
+                            <div class="vision-header">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                    <circle cx="12" cy="12" r="3"/>
+                                </svg>
+                                <h4>Nuestra Visión</h4>
+                            </div>
+                            <p class="vision-texto">
+                                Ser reconocidos como una empresa líder en el sector de mantenimiento e instalación de bombas de agua en el Perú, destacando por nuestro compromiso, calidad de servicio e innovación constante, superando siempre las expectativas de nuestros clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NUESTROS VALORES -->
+        <section class="valores">
+            <div class="encabezado-tarjeta">
+                <div class="icono-limpio">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 3h12l4 6-10 13L2 9l4-6z"/>
+                        <path d="M11 3L8 9l4 13 4-13-3-6"/>
+                        <path d="M2 9h20"/>
+                    </svg>
+                </div>
+                <h3 class="titulo-tarjeta">Nuestros Valores</h3>
+            </div>
+            
+            <div class="valores-grid">
+                <div class="valor-item">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                    </svg>
+                    <span>Compromiso</span>
+                </div>
+                <div class="valor-item">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 9V5a3 3 0 0 0-6 0v4"/>
+                        <rect x="2" y="9" width="20" height="12" rx="2" ry="2"/>
+                        <circle cx="12" cy="15" r="1"/>
+                    </svg>
+                    <span>Calidad</span>
+                </div>
+                <div class="valor-item">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                        <circle cx="9" cy="7" r="4"/>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                    <span>Confianza</span>
+                </div>
+                <div class="valor-item">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <span>Innovación</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- COBERTURA LIMA -->
+        <section class="cobertura-lima">
+            <div class="contenedor-cobertura">
+                <div class="encabezado-tarjeta">
+                    <div class="icono-limpio">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="10" r="3"/>
+                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="titulo-tarjeta">Cobertura en Lima Metropolitana</h3>
+                </div>
+                
+                <div class="imagen-tecnico-mapa">
+                    <img src="https://www.mapadelima.com/wp-content/uploads/2020/02/mapa-de-regiones-de-lima.jpg" alt="Técnico de mantenimiento" class="imagen-tecnico">
+                    
+                    <!-- OVERLAY CON 4 ZONAS (2x2 GRID) -->
+                    <div class="overlay-mapa">
+                        <div class="zona-norte">NORTE</div>
+                        <div class="zona-este">ESTE</div>
+                        <div class="zona-oeste">OESTE</div>
+                        <div class="zona-sur">SUR</div>
+                    </div>
+                </div>
+                
+                <!-- LISTA DINÁMICA DE DISTRITOS -->
+                <div class="lista-distritos">
+                    <div class="zona-titulo" style="color: var(--azul-corporativo); font-weight: 700;">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="10" r="3"/>
+                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/>
+                        </svg>
+                        Pasa el cursor sobre una zona para ver los distritos
+                    </div>
+                    <div class="distritos-grid">
+                        <div class="distrito-item" style="color: var(--gris-medio);">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <line x1="12" y1="16" x2="12" y2="12"/>
+                                <line x1="12" y1="8" x2="12.01" y2="8"/>
+                            </svg>
+                            Información interactiva de distritos
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- TIEMPOS DE RESPUESTA -->
+                <div class="tiempo-respuesta">
+                    <div class="respuesta-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12,6 12,12 16,14"/>
+                        </svg>
+                        <div class="respuesta-info">
+                            <strong>Emergencias</strong>
+                            <span>15-30 minutos</span>
+                        </div>
+                    </div>
+                    
+                    <div class="respuesta-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        <div class="respuesta-info">
+                            <strong>Citas Programadas</strong>
+                            <span>Mismo día o siguiente</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA NOSOTROS -->
+        <section class="cta-nosotros">
+            <div class="contenedor-cta">
+                <h2 class="titulo-cta">¿Necesitas Nuestros Servicios?</h2>
+                <p class="texto-cta">
+                    Contacta con nosotros para una evaluación gratuita y descubre por qué somos la mejor opción en Lima
+                </p>
+                
+                <div class="botones-cta">
+                    <a href="tel:+51987654321" class="boton-cta primario">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        Llamar Ahora
+                    </a>
+                    
+                    <a href="https://wa.me/51987654321" class="boton-cta secundario" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                        </svg>
+                        WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-company">
+                <div class="footer-logo">
+                    <img src="build/img/propios/log2.webp" alt="Bombas Ayala Logo">
+                    <div>
+                        <div class="footer-logo-text">BOMBAS AYALA</div>
+                        <div class="footer-tagline">"Solución Técnica"</div>
+                    </div>
+                </div>
+                <p class="footer-description">
+                    BOMBAS AYALA es una empresa con más de 20 años de trayectoria
+                    especializada en el sector de bombas de agua y plomería en general.
+                    Nos fundamentamos en el compromiso con la satisfacción de nuestros
+                    clientes y la calidad en nuestras soluciones óptimas.
+                </p>
+
+                <div>
+                    <div class="footer-social-title">Síguenos en</div>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" title="Facebook">
+                            <img src="build/img/propios/redes/facebook.webp" alt="Facebook" />
+                        </a>
+
+                        <a href="#" class="footer-social-link" title="LinkedIn">
+                            <img src="build/img/propios/redes/linkendin.webp" alt="LinkedIn" />                          
+                        </a>
+
+                        <a href="#" class="footer-social-link" title="YouTube">
+                            <img src="build/img/propios/redes/youtube.webp" alt="YouTube" />
+                        </a>                                            
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN CONTACTO -->
+            <div class="footer-contact">
+                <h3 class="footer-section-title">Contáctenos</h3>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="build/img/propios/redes/whatsapp.webp" alt=" whatsapp" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>WhatsApp</strong>
+                        +51 997 984 102
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="build/img/propios/redes/llamada.webp" alt=" llamada" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Teléfono</strong>
+                        +51 986 186 297
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="build/img/propios/redes/gmail.webp" alt="correo" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Email</strong>
+                        bombasayala365@gmail.com
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3834510!2d-77.01147668561!3d-12.08575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7c2b7b7b7b7%3A0x7b7b7b7b7b7b7b7b!2sJr.%20San%20Pedro%20348%2C%20Surquillo!5e0!3m2!1ses!2spe!4v1600000000000!5m2!1ses!2spe"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+            <!-- SECCIÓN SERVICIOS -->
+            <div class="footer-services">
+                <h3 class="footer-section-title">Servicios</h3>
+
+                <div class="footer-services-grid">
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Mantenimiento, instalación y venta de bombas</span>
+                    </div>
+
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Tableros variadores de velocidad</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de cisternas y tanques elevados</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de pozos sépticos</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de piscinas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🚨</span>
+                        <span class="footer-service-text">Atención de emergencias 24/7</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Mantenimiento de termas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">⚡</span>
+                        <span class="footer-service-text">Gasfitería en general</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-copyright">
+                    Derechos Reservados. © 2024 – BOMBAS AYALA
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="src/js/nosotros/nosotros.js"></script>
+    <script src="src/js/header/header-unificado.js"></script> -->
+    <script src="build/js/main.js"></script>
+
+    
+
+
+
+
+</body>
+
+</html>

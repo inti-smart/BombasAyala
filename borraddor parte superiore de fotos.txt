@@ -1,0 +1,404 @@
+            <div class="seccion-proyectos-destacados">
+                <h2 class="titulo-seccion">Proyectos Destacados</h2>
+                
+                <div class="filtros-proyectos">
+                    <button class="filtro-btn activo" data-filtro="todos">
+                        <i class="fas fa-th"></i>
+                        Todos
+                    </button>
+                    <button class="filtro-btn" data-filtro="residencial">
+                        <i class="fas fa-home"></i>
+                        Residencial
+                    </button>
+                    <button class="filtro-btn" data-filtro="industrial">
+                        <i class="fas fa-industry"></i>
+                        Industrial
+                    </button>
+                    <button class="filtro-btn" data-filtro="comercial">
+                        <i class="fas fa-store"></i>
+                        Comercial
+                    </button>
+                    <button class="filtro-btn" data-filtro="emergencia">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        Emergencias
+                    </button>
+                </div>
+
+                <div class="grid-proyectos">
+                    <!-- PROYECTO RESIDENCIAL 1 -->
+                    <div class="tarjeta-proyecto" data-categoria="residencial">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=300&fit=crop" alt="Condominio Residencial San Isidro" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge residencial">
+                                <i class="fas fa-home"></i>
+                                Residencial
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Condominio Premium San Isidro</h3>
+                            <p class="descripcion-proyecto">
+                                Instalación de sistema de presurización para 120 departamentos. 
+                                Bombas centrífugas de alta eficiencia con tablero automatizado.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>San Isidro, Lima</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Bomba Centrífuga 5HP</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Enero 2024</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Excelente trabajo, sin problemas desde la instalación"</p>
+                                <span class="cliente">- Administrador Condominio</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO INDUSTRIAL 1 -->
+                    <div class="tarjeta-proyecto" data-categoria="industrial">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&h=300&fit=crop" alt="Planta Industrial Callao" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge industrial">
+                                <i class="fas fa-industry"></i>
+                                Industrial
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Planta Industrial Callao</h3>
+                            <p class="descripcion-proyecto">
+                                Sistema de bombeo industrial para planta textil. Instalación de bombas 
+                                de gran caudal con variadores de velocidad y monitoreo automático.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Callao, Lima</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Bomba Industrial 25HP</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Diciembre 2023</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Incrementamos 30% la eficiencia energética"</p>
+                                <span class="cliente">- Gerente de Planta</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO COMERCIAL 1 -->
+                    <div class="tarjeta-proyecto" data-categoria="comercial">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop" alt="Centro Comercial Miraflores" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge comercial">
+                                <i class="fas fa-store"></i>
+                                Comercial
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Centro Comercial Miraflores</h3>
+                            <p class="descripcion-proyecto">
+                                Mantenimiento preventivo y correctivo de sistema de bombas. 
+                                Contrato de servicio anual con atención 24/7 para emergencias.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Miraflores, Lima</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Sistema Múltiple</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Contrato Anual</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Nunca más problemas de agua, servicio impecable"</p>
+                                <span class="cliente">- Administrador CC</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO EMERGENCIA 1 -->
+                    <div class="tarjeta-proyecto" data-categoria="emergencia">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop" alt="Emergencia Inundación Lima Norte" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge emergencia">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                Emergencia
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Emergencia Inundación Lima Norte</h3>
+                            <p class="descripcion-proyecto">
+                                Respuesta de emergencia 24/7. Extracción de agua y reparación de bomba 
+                                sumergible en tiempo récord para evitar mayores daños.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Los Olivos, Lima</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Bomba Sumergible</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Respuesta: 20 min</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Llegaron rapidísimo y solucionaron todo"</p>
+                                <span class="cliente">- Propietario Vivienda</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- PROYECTO EMERGENCIA 1 -->
+                    <div class="tarjeta-proyecto" data-categoria="emergencia">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&h=300&fit=crop" alt="Emergencia Inundación Lima Norte" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge emergencia">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                Emergencia
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Emergencia Inundación Lima Norte</h3>
+                            <p class="descripcion-proyecto">
+                                Respuesta de emergencia 24/7. Extracción de agua y reparación de bomba 
+                                sumergible en tiempo récord para evitar mayores daños.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Los Olivos, Lima</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Bomba Sumergible</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Respuesta: 20 min</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Llegaron rapidísimo y solucionaron todo"</p>
+                                <span class="cliente">- Propietario Vivienda</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO RESIDENCIAL 2 -->
+                    <div class="tarjeta-proyecto proyecto-oculto" data-categoria="residencial">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&h=300&fit=crop" alt="Casa Moderna La Molina" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge residencial">
+                                <i class="fas fa-home"></i>
+                                Residencial
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Casa Moderna La Molina</h3>
+                            <p class="descripcion-proyecto">
+                                Instalación completa de sistema de presurización para casa de 3 pisos. 
+                                Incluye limpieza de cisterna y mantenimiento de piscina.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>La Molina, Lima</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Bomba Periférica 1HP</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Febrero 2024</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Trabajo limpio y profesional, muy recomendable"</p>
+                                <span class="cliente">- Familia Rodríguez</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROYECTO INDUSTRIAL 2 -->
+                    <div class="tarjeta-proyecto proyecto-oculto" data-categoria="industrial">
+                        <div class="imagen-proyecto">
+                            <img src="https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=400&h=300&fit=crop" alt="Fábrica de Alimentos Villa El Salvador" class="proyecto-img">
+                            <div class="overlay-proyecto">
+                                <!-- <div class="info-overlay">
+                                    <i class="fas fa-eye"></i>
+                                    <span>Ver Detalles</span>
+                                </div> -->
+                            </div>
+                            <div class="categoria-badge industrial">
+                                <i class="fas fa-industry"></i>
+                                Industrial
+                            </div>
+                        </div>
+                        
+                        <div class="contenido-proyecto">
+                            <h3 class="titulo-proyecto">Fábrica de Alimentos VES</h3>
+                            <p class="descripcion-proyecto">
+                                Modernización de sistema de bombeo para industria alimentaria. 
+                                Instalación de tableros con variadores y sistema de monitoreo remoto.
+                            </p>
+                            
+                            <div class="detalles-proyecto">
+                                <div class="detalle-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Villa El Salvador</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Sistema Automatizado</span>
+                                </div>
+                                <div class="detalle-item">
+                                    <i class="fas fa-calendar"></i>
+                                    <span>Marzo 2024</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonio-breve">
+                                <div class="estrellas">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p>"Reducimos costos operativos en 25%"</p>
+                                <span class="cliente">- Jefe de Operaciones</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- BOTÓN VER MÁS -->
+                <div class="contenedor-ver-mas">
+                    <button class="btn-ver-mas" id="btnVerMas" >
+                        <i class="fas fa-plus-circle"></i>
+                        Ver Más Proyectos
+                    </button>
+                </div>
+
+            </div>

@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Bombas Ayala</title>
+    <link rel="icon" href="build/img/propios/log2.webp" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Roboto+Slab:wght@100..900&family=Source+Sans+3:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <!-- HEADER UNIFICADO (Contact Bar + Menu Principal) -->
+    <header class="header-unificado">
+        <!-- BARRA DE CONTACTO (se oculta con scroll) -->
+        <div class="contact-bar">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" class="contact-icon">
+                        <span class="contact-text">997 984 102 | 986 186 297</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/gmail.webp" alt="Email" class="contact-icon">
+                        <span class="contact-text">bombasayala365@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <img src="build/img/propios/redes/ubicacion.webp" alt="Ubicación" class="contact-icon">
+                        <span class="contact-text">Jr. San Pedro 348 - Surquillo</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" title="Facebook">
+                        <img src="build/img/propios/redes/facebook.webp" alt="Facebook" />
+                    </a>
+                    <a href="#" class="social-link" title="LinkedIn">
+                        <img src="build/img/propios/redes/linkendin.webp" alt="LinkedIn" />
+                    </a>
+                    <a href="#" class="social-link" title="YouTube">
+                        <img src="build/img/propios/redes/youtube.webp" alt="YouTube" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- NAVEGACIÓN PRINCIPAL (siempre visible) -->
+        <nav class="nav-principal">
+            <div class="nav-container">
+                <a href="inicio.html" class="logo">
+                    <img src="build/img/propios/logo1.webp" alt="Bombas Ayala Logo">
+                </a>
+                
+                <!-- Menú hamburguesa para móvil -->
+                <button class="mobile-menu-toggle" aria-label="Abrir menú de navegación">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Menú de navegación -->
+                <ul class="nav-menu">
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <!-- <li><a href="soporte.html">Soporte</a></li> -->
+                    <li><a href="contactos.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Overlay para cerrar menú en móvil - MOVIDO FUERA DEL NAV-CONTAINER -->
+        <div class="mobile-menu-overlay"></div>
+    </header>
+    
+    <!-- Elementos flotantes -->
+    <div class="flotantes">
+        <a href="https://wa.me/51997984102" class="flotante whatsapp" title="WhatsApp">
+            <img src="build/img/propios/redes/whatsapp.webp" alt="WhatsApp" />
+            <span>WhatsApp</span>
+        </a>
+        <a href="tel:+51997984102" class="flotante llamada" title="Llamar">
+            <img src="build/img/propios/redes/llamada.webp" alt="Teléfono" />
+            <span>Llamar</span>
+        </a>
+        <a href="https://instagram.com/bombasayala" class="flotante instagram" title="Instagram">
+            <img src="build/img/propios/redes/instagram.webp" alt="Instagram" />
+            <span>Instagram</span>
+        </a>
+    </div>
+
+    <!-- MAIN SERVICIOS -->
+    <main class="main-servicios">
+        
+        <!-- HERO SERVICIOS -->
+        <section class="hero-servicios">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>20+ Años de Experiencia</span>
+                </div>
+                
+                <h1 class="hero-titulo">
+                    Servicios Técnicos Especializados
+                </h1>
+                
+                <p class="hero-subtitulo">
+                    Soluciones integrales en bombas de agua, tableros eléctricos y sistemas de bombeo 
+                    con la garantía de tres décadas de experiencia en el sector
+                </p>
+                
+                <div class="hero-stats">
+                    <!-- <div class="stat-item">
+                        <span class="stat-numero">2000+</span>
+                        <span class="stat-texto">Proyectos Realizados</span>
+                    </div> -->
+                    <div class="stat-item">
+                        <span class="stat-numero">980</span>
+                        <span class="stat-texto">Clientes Satisfechos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-numero"> + 14000</span>
+                        <span class="stat-texto">Horas de trabajo</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-numero">30</span>
+                        <span class="stat-texto">Años de experiencia </span>
+                    </div>
+                    <!-- <div class="stat-item">
+                        <span class="stat-numero">24/7</span>
+                        <span class="stat-texto">Servicio de Emergencia</span>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORÍAS DE SERVICIOS -->
+        <!-- <section class="categorias-servicios">
+            <div class="categorias-container">
+                <h2 class="categorias-titulo">Nuestras Especialidades</h2>
+                <div class="categorias-grid">
+                    <div class="categoria-item" data-categoria="mantenimiento">
+                        <div class="categoria-icono">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="categoria-nombre">Mantenimiento</h3>
+                        <p class="categoria-descripcion">Preventivo y Correctivo</p>
+                        <div class="categoria-badge">2 Servicios</div>
+                    </div>
+
+                    <div class="categoria-item" data-categoria="instalacion">
+                        <div class="categoria-icono">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="categoria-nombre">Instalación</h3>
+                        <p class="categoria-descripcion">Tableros y Sistemas</p>
+                        <div class="categoria-badge">2 Servicios</div>
+                    </div>
+
+                    <div class="categoria-item" data-categoria="sistemas-agua">
+                        <div class="categoria-icono">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3 class="categoria-nombre">Sistemas de Agua</h3>
+                        <p class="categoria-descripcion">Bombas y Gasfitería</p>
+                        <div class="categoria-badge">2 Servicios</div>
+                    </div>
+
+                    <div class="categoria-item" data-categoria="emergencias">
+                        <div class="categoria-icono">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <h3 class="categoria-nombre">Emergencias 24/7</h3>
+                        <p class="categoria-descripcion">Atención Inmediata</p>
+                        <div class="categoria-badge">Disponible</div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- SERVICIOS PRINCIPALES -->
+        <section class="servicios-principales">
+            
+            <div class="seccion-titulo">
+                <h2>Todos Nuestros Servicios</h2>
+                <p>Soluciones técnicas integrales con equipos de última generación y personal altamente calificado</p>
+            </div>
+
+            <section class="servicios-grid">
+                
+                <!-- Mantenimiento Preventivo -->
+                <section class="servicio-card destacado" data-categoria="mantenimiento">
+                    <div class="servicio-header">
+                        <div class="servicio-icono">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="servicio-titulo">Mantenimiento Preventivo</h3>
+                        <p class="servicio-descripcion">
+                            Programa integral de mantenimiento para asegurar el óptimo funcionamiento 
+                            y extender la vida útil de sus equipos de bombeo.
+                        </p>
+                    </div>
+                    
+                    <div class="servicio-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Inspección completa del sistema</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Lubricación y limpieza especializada</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Revisión de conexiones eléctricas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Informe técnico detallado</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garantía de 6 meses</span>
+                        </div>
+                    </div>
+                    
+                    <div class="servicio-footer">
+                        <div class="servicio-precio-consulta">
+                            <span class="precio-consulta-texto">Consultar Precio</span>
+                            <span class="precio-consulta-subtexto">Cotización gratuita</span>
+                        </div>
+                        <a href="https://wa.me/51997984102?text=Hola, necesito cotización para Mantenimiento Preventivo" 
+                           class="boton-cotizar" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Mantenimiento Correctivo -->
+                <section class="servicio-card destacado" data-categoria="mantenimiento">
+                    <div class="servicio-header">
+                        <div class="servicio-icono">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3 class="servicio-titulo">Mantenimiento Correctivo</h3>
+                        <p class="servicio-descripcion">
+                            Reparación especializada de bombas con diagnóstico preciso y 
+                            repuestos originales para restaurar el funcionamiento óptimo.
+                        </p>
+                    </div>
+                    
+                    <div class="servicio-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Diagnóstico técnico especializado</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reparación con repuestos originales</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pruebas de funcionamiento</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Servicio de recojo y entrega</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garantía de 3 meses</span>
+                        </div>
+                    </div>
+                    
+                    <div class="servicio-footer">
+                        <div class="servicio-precio-consulta">
+                            <span class="precio-consulta-texto">Consultar Precio</span>
+                            <span class="precio-consulta-subtexto">Evaluación gratuita</span>
+                        </div>
+                        <a href="https://wa.me/51997984102?text=Hola, necesito cotización para Mantenimiento Correctivo" 
+                           class="boton-cotizar" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Limpieza de cisternas -->
+                <section class="servicio-card" data-categoria="sistemas-agua">
+                    <div class="servicio-header">
+                        <div class="servicio-icono">
+                            <i class="fas fa-pipe"></i>
+                        </div>
+                        <h3 class="servicio-titulo">Limpieza de cisternas</h3>
+                        <p class="servicio-descripcion">
+                            Servicio personalizado en lmpieza y desinfección de cisternas, tanqes y pozos.
+                        </p>
+                    </div>
+                    
+                    <div class="servicio-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Instalación de thermas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Limpieza de cisternas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reparación de tuberías</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Limpieza de pozos sépticos</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Emergencias 24/7</span>
+                        </div>
+                    </div>
+                    
+                    <div class="servicio-footer">
+                        <div class="servicio-precio-consulta">
+                            <span class="precio-consulta-texto">Consultar Precio</span>
+                            <span class="precio-consulta-subtexto">Cotización inmediata</span>
+                        </div>
+                        <a href="https://wa.me/51997984102?text=Hola, necesito cotización para servicios de Gasfitería" 
+                           class="boton-cotizar" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Bombas de Agua -->
+                <section class="servicio-card" data-categoria="sistemas-agua">
+                    <div class="servicio-header">
+                        <div class="servicio-icono">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                        <h3 class="servicio-titulo">Bombas de Agua</h3>
+                        <p class="servicio-descripcion">
+                            Servicio integral para bombas centrífugas, periféricas, sumergibles 
+                            e industriales con atención especializada 24/7.
+                        </p>
+                    </div>
+                    
+                    <div class="servicio-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bombas centrífugas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bombas periféricas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bombas sumergibles</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bombas industriales</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Repuestos originales</span>
+                        </div>
+                    </div>
+                    
+                    <div class="servicio-footer">
+                        <div class="servicio-precio-consulta">
+                            <span class="precio-consulta-texto">Consultar Precio</span>
+                            <span class="precio-consulta-subtexto">Según tipo de bomba</span>
+                        </div>
+                        <a href="https://wa.me/51997984102?text=Hola, necesito información sobre servicios de Bombas de Agua" 
+                           class="boton-cotizar" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Consultar por WhatsApp
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Tableros Eléctricos -->
+                <section class="servicio-card" data-categoria="instalacion">
+                    <div class="servicio-header">
+                        <div class="servicio-icono">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h3 class="servicio-titulo">Tableros Eléctricos</h3>
+                        <p class="servicio-descripcion">
+                            Instalación, mantenimiento y reparación de tableros eléctricos 
+                            para sistemas de bombeo con tecnología de vanguardia.
+                        </p>
+                    </div>
+                    
+                    <div class="servicio-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Tableros automáticos</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Variadores de velocidad</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Arrancadores suaves</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Protecciones eléctricas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Instalación certificada</span>
+                        </div>
+                    </div>
+                    
+                    <div class="servicio-footer">
+                        <div class="servicio-precio-consulta">
+                            <span class="precio-consulta-texto">Consultar Precio</span>
+                            <span class="precio-consulta-subtexto">Presupuesto sin costo</span>
+                        </div>
+                        <a href="https://wa.me/51997984102?text=Hola, necesito cotización para Tableros Eléctricos" 
+                           class="boton-cotizar" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Gasfitería Especializada -->
+                <section class="servicio-card" data-categoria="sistemas-agua">
+                    <div class="servicio-header">
+                        <div class="servicio-icono">
+                            <i class="fas fa-pipe"></i>
+                        </div>
+                        <h3 class="servicio-titulo">Gasfitería Especializada</h3>
+                        <p class="servicio-descripcion">
+                            Servicios completos de plomería, instalación de thermas, 
+                            limpieza de cisternas y mantenimiento de sistemas hidráulicos.
+                        </p>
+                    </div>
+                    
+                    <div class="servicio-caracteristicas">
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Instalación de thermas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Limpieza de cisternas</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reparación de tuberías</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Limpieza de pozos sépticos</span>
+                        </div>
+                        <div class="caracteristica">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Emergencias 24/7</span>
+                        </div>
+                    </div>
+                    
+                    <div class="servicio-footer">
+                        <div class="servicio-precio-consulta">
+                            <span class="precio-consulta-texto">Consultar Precio</span>
+                            <span class="precio-consulta-subtexto">Cotización inmediata</span>
+                        </div>
+                        <a href="https://wa.me/51997984102?text=Hola, necesito cotización para servicios de Gasfitería" 
+                           class="boton-cotizar " target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Cotizar por WhatsApp
+                        </a>
+                    </div>
+                </section>
+
+
+
+            </section>
+
+
+
+            <!-- EMERGENCIAS 24/7 -->
+            <div class="seccion-emergencia">
+                <div class="emergencia-content">
+                    <div class="emergencia-icono">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    
+                    <h2 class="emergencia-titulo">Servicio de Emergencia 24/7</h2>
+                    
+                    <p class="emergencia-descripcion">
+                        ¿Tu bomba se averió y necesitas asistencia inmediata? Contamos con técnicos especializados 
+                        disponibles las 24 horas para atender cualquier emergencia en sistemas de bombeo.
+                    </p>
+                    
+                    <div class="emergencia-botones">
+                        <a href="https://wa.me/51997984102?text=🚨 EMERGENCIA: Necesito asistencia técnica urgente" 
+                           class="boton-emergencia whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp Emergencia
+                        </a>
+                        
+                        <a href="tel:+51997984102" class="boton-emergencia llamar">
+                            <i class="fas fa-phone"></i>
+                            Llamar Emergencia
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TESTIMONIOS -->
+            <div class="seccion-testimonios">
+                <div class="seccion-titulo">
+                    <h2>Lo que Dicen Nuestros Clientes</h2>
+                    <p>Más de 5000 clientes satisfechos respaldan nuestro trabajo</p>
+                </div>
+
+                <div class="testimonios-grid">
+                    <div class="testimonio-card">
+                        <p class="testimonio-texto">
+                            Excelente servicio técnico. Solucionaron el problema de mi bomba en tiempo record. 
+                            El equipo es muy profesional y los precios son justos. Definitivamente los recomiendo.
+                        </p>
+                        <div class="testimonio-autor">
+                            <div class="autor-avatar">MC</div>
+                            <div class="autor-info">
+                                <h4>María Contreras</h4>
+                                <p>Residencial San Borja</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <p class="testimonio-texto">
+                            Han dado mantenimiento a nuestras bombas industriales por más de 5 años. 
+                            Siempre puntuales, eficientes y con repuestos originales. Servicio de calidad.
+                        </p>
+                        <div class="testimonio-autor">
+                            <div class="autor-avatar">JR</div>
+                            <div class="autor-info">
+                                <h4>José Ramírez</h4>
+                                <p>Empresa Industrial SAC</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <p class="testimonio-texto">
+                            Instalaron un sistema completo de bombeo en mi edificio. El trabajo fue impecable 
+                            y nos dieron garantía por un año. Muy satisfecho con el resultado.
+                        </p>
+                        <div class="testimonio-autor">
+                            <div class="autor-avatar">AR</div>
+                            <div class="autor-info">
+                                <h4>Alberto Ríos</h4>
+                                <p>Edificio Miraflores</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <p class="testimonio-texto">
+                            Servicio de emergencia excepcional. Llegaron en 30 minutos un domingo por la noche. 
+                            Resolvieron la falla de inmediato. Muy agradecido por la rapidez y profesionalismo.
+                        </p>
+                        <div class="testimonio-autor">
+                            <div class="autor-avatar">LM</div>
+                            <div class="autor-info">
+                                <h4>Luis Mendoza</h4>
+                                <p>Comercial La Victoria</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <p class="testimonio-texto">
+                            Llevé mi bomba para reparación y quedó como nueva. Me explicaron todo el proceso 
+                            y me dieron consejos para el mantenimiento. Servicio muy profesional.
+                        </p>
+                        <div class="testimonio-autor">
+                            <div class="autor-avatar">CR</div>
+                            <div class="autor-info">
+                                <h4>Carmen Rojas</h4>
+                                <p>Villa El Salvador</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonio-card">
+                        <p class="testimonio-texto">
+                            Empresa seria y confiable. Instalaron tableros automáticos en mi negocio y 
+                            funciona perfecto. Precios competitivos y trabajo garantizado.
+                        </p>
+                        <div class="testimonio-autor">
+                            <div class="autor-avatar">DR</div>
+                            <div class="autor-info">
+                                <h4>David Ruiz</h4>
+                                <p>Restaurant El Dorado</p>
+                                <div class="estrellas">★★★★★</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <div class="footer-company">
+                <div class="footer-logo">
+                    <img src="../build/img/propios/log2.webp" alt="Bombas Ayala Logo">
+                    <div>
+                        <div class="footer-logo-text">BOMBAS AYALA</div>
+                        <div class="footer-tagline">"Solución Técnica"</div>
+                    </div>
+                </div>
+
+                <p class="footer-description">
+                    BOMBAS AYALA es una empresa con más de 20 años de trayectoria
+                    especializada en el sector de bombas de agua y plomería en general.
+                    Nos fundamentamos en el compromiso con la satisfacción de nuestros
+                    clientes y la calidad en nuestras soluciones óptimas.
+                </p>
+
+                <div>
+                    <div class="footer-social-title">Síguenos en</div>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link" title="Facebook">
+                            <img src="../build/img/propios/redes/facebook.webp" alt="Facebook" />
+                        </a>
+                        <a href="#" class="footer-social-link" title="LinkedIn">
+                            <img src="../build/img/propios/redes/linkendin.webp" alt="LinkedIn" />                          
+                        </a>
+                        <a href="#" class="footer-social-link" title="YouTube">
+                            <img src="../build/img/propios/redes/youtube.webp" alt="YouTube" />
+                        </a>                                            
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECCIÓN CONTACTO -->
+            <div class="footer-contact">
+                <h3 class="footer-section-title">Contáctenos</h3>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/whatsapp.webp" alt=" whatsapp" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>WhatsApp</strong>
+                        +51 997 984 102
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/llamada.webp" alt=" llamada" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Teléfono</strong>
+                        +51 986 186 297
+                    </div>
+                </div>
+
+                <div class="footer-contact-item">
+                    <div class="footer-contact-icon">
+                        <img src="../build/img/propios/redes/gmail.webp" alt="correo" />
+                    </div>
+                    <div class="footer-contact-text">
+                        <strong>Email</strong>
+                        bombasayala365@gmail.com
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.3834510!2d-77.01147668561!3d-12.08575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7c2b7b7b7b7%3A0x7b7b7b7b7b7b7b7b!2sJr.%20San%20Pedro%20348%2C%20Surquillo!5e0!3m2!1ses!2spe!4v1600000000000!5m2!1ses!2spe"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- SECCIÓN SERVICIOS -->
+            <div class="footer-services">
+                <h3 class="footer-section-title">Servicios</h3>
+
+                <div class="footer-services-grid">
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Mantenimiento, instalación y venta de bombas</span>
+                    </div>
+
+                    <div class="footer-service-item footer-service-highlight">
+                        <span class="footer-service-icon">⭐</span>
+                        <span class="footer-service-text">Tableros variadores de velocidad</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de cisternas y tanques elevados</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de pozos sépticos</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Limpieza de piscinas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🚨</span>
+                        <span class="footer-service-text">Atención de emergencias 24/7</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">🔧</span>
+                        <span class="footer-service-text">Mantenimiento de termas</span>
+                    </div>
+
+                    <div class="footer-service-item">
+                        <span class="footer-service-icon">⚡</span>
+                        <span class="footer-service-text">Gasfitería en general</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER BOTTOM -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="footer-copyright">
+                    Derechos Reservados. © 2024 – BOMBAS AYALA
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FontAwesome Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <!-- <script src="src/js/servicios/servicios.js"></script>
+    <script src="src/js/header/header-unificado.js"></script> -->
+
+    <script src="build/js/main.js"></script>
+
+
+</body>
+
+</html>
