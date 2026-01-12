@@ -12885,6 +12885,14 @@ body.contact-hidden {
   flex-direction: column;
   gap: 0.5rem;
 }
+
+.atencion24h{
+  color:#008f4c;
+  text-emphasis-color: red;
+
+}
+
+
 .grupo-formulario label {
   font-weight: 600;
   color: #2C3E50;
